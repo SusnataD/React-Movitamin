@@ -7,7 +7,7 @@ function App() {
   }, []);
 
   const fetchData = () => {
-    fetchDataFromAPi("/discover/movie").then((res) => console.log(res));
+    fetchDataFromAPi("/movie/popular").then((res) => console.log(res));
   };
   return <div className="app">App Testing</div>;
 }

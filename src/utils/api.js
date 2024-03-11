@@ -15,7 +15,6 @@ export const fetchDataFromAPi = async (url, params) => {
     });
     return data;
   } catch (err) {
-    console.error(err);
     return err;
   }
 };

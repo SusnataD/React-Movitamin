@@ -9,7 +9,7 @@ function App() {
   const fetchData = () => {
     fetchDataFromAPi("/discover/movie").then((res) => console.log(res));
   };
-  return <div className="app">App</div>;
+  return <div className="app">App Testing</div>;
 }
 
 export default App;

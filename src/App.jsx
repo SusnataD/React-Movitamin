@@ -13,11 +13,11 @@ function App() {
 
   const fetchData = () => {
     fetchDataFromAPi("/movie/popular").then((res) => {
-      //console.log(res);
+      console.log(res);
       dispatch(getApiConfiguration(res));
     });
   };
-  return <div className="app">App Testing {url?.total_pages}</div>;
+  return <div className="app">App Testing {url.total_pages}</div>;
 }
 
 export default App;
